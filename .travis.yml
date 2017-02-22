@@ -9,4 +9,4 @@ script:
   - go test -v -cover -race -coverprofile=coverage.out
 after_script:
   - go get github.com/mattn/goveralls
-  - $HOME/gopath/bin/goveralls -service=travis-ci -coverprofile=coverage.out -repotoken= $COVERALLS_TOKEN
+  - $HOME/gopath/bin/goveralls -service=travis-ci -coverprofile=coverage.out -repotoken=$COVERALLS_TOKEN
