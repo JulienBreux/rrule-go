@@ -1,6 +1,8 @@
 rrule.go
 ========
 
+[![Build Status](https://travis-ci.org/JulienBreux/rrule-go.svg?branch=master)](https://travis-ci.org/JulienBreux/rrule-go) [![Coverage Status](https://coveralls.io/repos/github/JulienBreux/rrule-go/badge.svg?branch=master)](https://coveralls.io/github/JulienBreux/rrule-go?branch=master)
+
 **Go library for working with recurrence rules for calendar dates.**
 
 Inspired by the amazing [rrule.js](https://github.com/jkbrzt/rrule).
